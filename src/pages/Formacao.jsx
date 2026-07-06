@@ -33,7 +33,7 @@ export const Formacao = () => {
             </article>
 
             <article className="article align-self-start col-6 col-md-5">
-              <small className="badge">ano</small>
+              <span className="fw-light badge">ano</span>
               <header>Formacao 1</header>
               <p>Detalhes da formacao</p>
               <small>Conteudos</small>
