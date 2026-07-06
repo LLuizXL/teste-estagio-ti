@@ -1,7 +1,26 @@
+:root {
+  --bgcolor: #d3d3d3
+}
+
 body {
   box-sizing: border-box;
   border: 0;
   padding: 0;
   margin: 0;
+  background-color: var(--bgcolor);
+}
 
+  p {
+    
+  }
+
+.article{
+  font-size: large;
+  border-radius: 5%;
+  padding: 3%;
+  background-color: bisque;
+  transition: 100ms linear;
+}
+#article:hover {
+  transform: scale(1.1);
 }
