@@ -6,7 +6,7 @@ export const Contato = () => {
       <h2>Contato</h2>
       <p className="text-secondary">Preencha o formulário abaixo para podermos conversar.</p>
 
-      <form className="d-flex flex-column bg-body-tertiary p-3 rounded-3 col-8 " action="">
+      <form className="d-flex flex-column p-3 rounded-3 col-8 gap-3 " action="">
        <div className="form-group">
         <label htmlFor="" className="form-label d-block">Nome</label>
         <input type="text" className="w-100" />

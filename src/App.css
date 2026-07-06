@@ -1,26 +1,54 @@
 :root {
-  --bgcolor: #d3d3d3
+  --bgcolor: #060120;
+  --headercolor: transparent;
+  --primarycolor: #ffffff;
+ --secondarycolor: #4d4c4c5d; 
+  --card-bg: #c2af07;
+
 }
 
 body {
+  background-color: var(--bgcolor) !important;
   box-sizing: border-box;
   border: 0;
   padding: 0;
   margin: 0;
-  background-color: var(--bgcolor);
+  color: var(--primarycolor) !important;
+  border-color: var(--border-color);
 }
 
-  p {
-    
-  }
+nav {
+  background-color: var(--headercolor);
+}
 
+.link {
+ color: var(--primarycolor);
+ transition: 100ms linear;
+}
+
+.link:hover, .link:active{
+  transform: scale(1.05);
+  color: antiquewhite;
+}
+
+input, textarea {
+  background: transparent;
+  border-width: 0px 2px 2px 2px;
+  border-color: var(--primarycolor);
+  border-radius: 0px 0px 3px 3px;
+  
+}
 .article{
   font-size: large;
   border-radius: 5%;
   padding: 3%;
-  background-color: bisque;
+  background-color: var(--card-bg);
+  color: var(--primarycolor);
   transition: 100ms linear;
 }
 #article:hover {
   transform: scale(1.1);
+}
+form {
+  background-color: var(--secondarycolor);
 }
