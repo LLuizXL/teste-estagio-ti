@@ -1,8 +1,10 @@
 import { Link } from "react-router";
 import { useTheme } from "../../context/ThemeContext";
 import { BsMoon, BsSun } from "react-icons/bs";
+import { profile } from "../../contents/sobreMim";
 
 export const Header = () => {
+  const fotoPerfil = [profile.perfil["foto"]]
   const { themeName, toggleTheme } = useTheme();
 // Header em Row, 2 partes: Foto, nome e cargo & Links para outras paginas OU botao de hamburger substituindo os links(apenas pra mobile)
   return (
@@ -11,13 +13,13 @@ export const Header = () => {
       <Link to="/" className="navbar-brand d-flex align-items-center gap-3 text-decoration-none">
         <img
           className="img-fluid rounded-circle"
-          src="https://placehold.co/50x50"
+          src={fotoPerfil}
           alt="Foto de perfil"
           style={{ width: 50, height: 50 }}
         />
         <div className="d-flex flex-column lh-sm">
-          <span className="fw-semibold text-light">Nome e Sobrenome</span>
-          <small className="text-secondary">Cargo aqui</small>
+          <span className="fw-semibold text-light">{profile.perfil["nome"]}</span>
+          <small className="text-secondary">{profile.perfil["cargo"]}</small>
         </div>
       </Link>
 

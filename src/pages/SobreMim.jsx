@@ -3,8 +3,8 @@ import { profile } from "../contents/sobreMim";
 
 export const SobreMim = () => {
   const resumo = profile["perfil"].resumo;
-
   const trabalhos = profile["projetos"];
+  const foto = profile.perfil["foto"];
   return (
     <div className="px-5 py-3 d-flex flex-column gap-3">
       <main className="d-flex flex-md-row flex-column-reverse align-items-center text-center text-md-start justify-content-between">
@@ -15,13 +15,10 @@ export const SobreMim = () => {
           </p>
         </section>
 
-       
-          <img
-            className="profile-img col-md-4 col-12 rounded-top-5 "
-            src="src/assets/foto1.jpeg"
-            />
-          
-
+        <img
+          className="profile-img col-md-4 col-12 rounded-top-5 "
+          src={foto}
+        />
       </main>
 
       <main className="text-center text-md-start">
@@ -33,6 +30,6 @@ export const SobreMim = () => {
           ))}
         </article>
       </main>
-      </div>
+    </div>
   );
 };
