@@ -40,7 +40,7 @@ export const Header = () => {
       <div className="collapse navbar-collapse justify-content-end" id="navMenu">
         <ul className="navbar-nav  gap-lg-3 gap-2 my-3 my-lg-0 me-lg-4">
           <li className="nav-item">
-            <Link to="/sobremim" className="link">Sobre mim</Link>
+            <Link to="/" className="link">Sobre mim</Link>
           </li>
           <li className="nav-item">
             <Link to="/conhecimentos" className="link">Conhecimentos</Link>
