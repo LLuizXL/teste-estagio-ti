@@ -36,7 +36,7 @@ nav {
 
 .link:hover, .link:active{
   transform: scale(1.05);
-  color: antiquewhite;
+  color: var(--secondarycolor);
 }
 
 input, textarea {

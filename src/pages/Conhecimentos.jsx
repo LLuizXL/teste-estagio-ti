@@ -1,3 +1,4 @@
+import { BsDatabase } from "react-icons/bs";
 import Knowledges from "../components/Knowledges";
 import { profile } from "../contents/sobreMim";
 

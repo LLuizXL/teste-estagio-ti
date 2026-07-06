@@ -3,11 +3,12 @@ import "./App.css";
 import { SobreMim } from "./pages/SobreMim";
 import { Header } from "./components/Header/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Footer from "./components/Footer/Footer";
+import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import { Contato } from "./pages/Contato";
 import { Conhecimentos } from "./pages/Conhecimentos";
 import { Formacao } from "./pages/Formacao";
 import { ThemeProvider } from "./context/ThemeContext";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (

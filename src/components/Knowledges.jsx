@@ -1,12 +1,13 @@
 
 
-const Knowledges = (props) => {
+
+const Knowledges = ({Icon, nome, descricao}) => {
   return (
     <article className="knowledge-card d-flex gap-3 col-md-3 p-3 align-items-center">
-      <figure className="m-0"><img src="https://placehold.co/80x80" alt="" /></figure>
+      <figure className="m-0"> <Icon size={80} /></figure>
       <div>
-      <h3 className=" fw-bold text-uppercase">{props.nome}</h3>
-      <span>{props.descricao}</span>
+      <h3 className=" fw-bold text-uppercase">{nome}</h3>
+      <span>{descricao}</span>
       </div>
     </article>
   );

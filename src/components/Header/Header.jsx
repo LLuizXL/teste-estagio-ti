@@ -1,38 +1,62 @@
 import { Link } from "react-router";
 import { useTheme } from "../../context/ThemeContext";
-import { profile } from "../../contents/sobreMim";
+import { BsMoon, BsSun } from "react-icons/bs";
 
 export const Header = () => {
   const { themeName, toggleTheme } = useTheme();
-  const fotoPerfil = profile.perfil.fotoPerfil
+// Header em Row, 2 partes: Foto, nome e cargo & Links para outras paginas OU botao de hamburger substituindo os links(apenas pra mobile)
   return (
-    // Header em Row, 2 partes: Foto, nome e cargo & Links para outras paginas
-    <nav className="d-flex align-items-center justify-content-between p-3 px-md-5 mb-3 sticky-top">
-      <div className="d-flex align-items-center gap-md-3 gap-5">
-        <img className="img-fluid" src={fotoPerfil} alt="" />
-        <div className="row">
-          Nome e Sobrenome
-          <small>Cargo aqui</small>
-        </div>
-      </div>
+    <nav className="navbar navbar-expand-lg sticky-top px-3 px-md-5">
 
-      <div className="d-flex align-items-center gap-3">
-        <ul className="d-flex gap-3 m-0">
-          <Link to={"/"} className="link">
-            Sobre mim
-          </Link>
-          <Link to={"/conhecimentos"} className="link">
-            Conhecimentos
-          </Link>
-          <Link to={"/formacao"} className="link">
-            Formação
-          </Link>
-          <Link to={"/contato"} className="link">
-            Contato
-          </Link>
+      <Link to="/" className="navbar-brand d-flex align-items-center gap-3 text-decoration-none">
+        <img
+          className="img-fluid rounded-circle"
+          src="https://placehold.co/50x50"
+          alt="Foto de perfil"
+          style={{ width: 50, height: 50 }}
+        />
+        <div className="d-flex flex-column lh-sm">
+          <span className="fw-semibold text-light">Nome e Sobrenome</span>
+          <small className="text-secondary">Cargo aqui</small>
+        </div>
+      </Link>
+
+   
+      <button
+        className="navbar-toggler border-light"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navMenu"
+        aria-controls="navMenu"
+        aria-expanded="false"
+        aria-label="Abrir menu"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+
+      
+      <div className="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul className="navbar-nav  gap-lg-3 gap-2 my-3 my-lg-0 me-lg-4">
+          <li className="nav-item">
+            <Link to="/sobremim" className="link">Sobre mim</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/conhecimentos" className="link">Conhecimentos</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/formacao" className="link">Formação</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/contato" className="link">Contato</Link>
+          </li>
         </ul>
-        <button className="btn btn-light" onClick={toggleTheme}>
-          {themeName == "light" ? "Modo Claro" : "Modo Escuro"}
+
+        <button className={`btn ${themeName == "light" ? "btn-outline-light" : "btn-outline-light"}`} onClick={toggleTheme}>
+      
+          {themeName == "dark" ? (
+            <BsMoon size={20}/>
+          ) : (<BsSun size={20}/>)}
+
         </button>
       </div>
     </nav>
