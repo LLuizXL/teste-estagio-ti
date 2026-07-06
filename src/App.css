@@ -52,3 +52,13 @@ input, textarea {
 form {
   background-color: var(--secondarycolor);
 }
+
+.knowledge-card {
+  background-color: #c2af07;
+  transition: 200ms linear;
+
+}
+.knowledge-card:hover {
+  transform: rotate3d(1, 1, 1, 5deg);
+  box-shadow: var(--primarycolor) 0 2px 20px 1px;
+}

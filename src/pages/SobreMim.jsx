@@ -27,9 +27,12 @@ export const SobreMim = () => {
       <main className="text-center text-md-start">
           <h3 className="mb-3 text-secondary">Um pouco do meu trabalho:</h3>
          
-        <article className="d-flex flex-md-row flex-column gap-3 overflow-x-auto ">
+        <article className="d-flex flex-column flex-md-row  gap-3 flex-wrap">
            <CardProjetos img={"https://placehold.co/200x200"} projeto={"Trab 1"} />
            <CardProjetos img={"https://placehold.co/200x200"} projeto={"Trab 2"} />
+           <CardProjetos img={"https://placehold.co/200x200"} projeto={"Trab 3"} />
+           <CardProjetos img={"https://placehold.co/200x200"} projeto={"Trab 3"} />
+           <CardProjetos img={"https://placehold.co/200x200"} projeto={"Trab 3"} />
            <CardProjetos img={"https://placehold.co/200x200"} projeto={"Trab 3"} />
 
         </article>
