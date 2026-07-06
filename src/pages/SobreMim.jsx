@@ -27,6 +27,7 @@ export const SobreMim = () => {
             />
         
       </main>
+
       <main className="text-center text-md-start">
         <h3 className="mb-3 text-secondary">Um pouco do meu trabalho:</h3>
 
@@ -36,6 +37,6 @@ export const SobreMim = () => {
           ))}
         </article>
       </main>
-    </div>
+      </div>
   );
 };

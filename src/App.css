@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 :root {
   --bgcolor: #060120;
   --headercolor: transparent;
@@ -6,7 +9,9 @@
   --card-bg: #c2af07;
 
 }
-
+* {
+  font-family: "Nunito Sans";
+}
 body {
   background-color: var(--bgcolor) !important;
   box-sizing: border-box;
@@ -16,9 +21,12 @@ body {
   color: var(--primarycolor) !important;
   border-color: var(--border-color);
 }
-
+p {
+  color: var(--secondarycolor);
+}
 nav {
   background-color: var(--headercolor);
+  backdrop-filter: blur(2px);
 }
 
 .link {
@@ -61,4 +69,7 @@ form {
 .knowledge-card:hover {
   transform: rotate3d(1, 1, 1, 5deg);
   box-shadow: var(--primarycolor) 0 2px 20px 1px;
+}
+.profile-img {
+  mask-image: linear-gradient( var(--bgcolor) 10%,  transparent 90%);
 }
