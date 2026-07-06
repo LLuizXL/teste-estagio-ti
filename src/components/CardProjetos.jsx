@@ -5,7 +5,7 @@ const CardProjetos = (props) => {
   return (  
     <div className='d-flex flex-column text-center'>
    
-    <figure ><img src={props.img} alt="" /></figure>
+    <figure ><img src={props.img} width={200} height={200} alt="" /></figure>
     <p>{props.projeto}</p>
     </div>
   )
