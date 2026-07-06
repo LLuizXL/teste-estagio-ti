@@ -46,6 +46,9 @@ input, textarea {
   border-radius: 0px 0px 3px 3px;
   
 }
+.line {
+  min-width: 2%;
+}
 .article{
   font-size: large;
   border-radius: 5%;
