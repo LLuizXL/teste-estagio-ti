@@ -1,15 +1,15 @@
 import React from 'react'
 
-const TimelineLeft = () => {
+const TimelineLeft = (props) => {
   return (
-     <div className="align-self-start d-flex flex-row gap-3 col-6">
-        <article className="article ">
-          <small className="fw-light text-body-tertiary">ano</small>
-          <header>Formacao 1</header>
-          <p>Detalhes da formacao</p>
-          <small>Conteudos</small>
+     <div className="d-flex flex-row col-12 col-md-6 justify-content-md-end gap-3 end-0">
+        <article className="article p-3">
+          <small className="fw-light text-body-tertiary">{props.ano}</small>
+          <header>{props.nome}</header>
+          <p>{props.descricao}</p>
+          <small>{props.graduacao}</small>
         </article>
-        <span className="bg-body-tertiary line"></span>
+        
  </div>
   )
 }
