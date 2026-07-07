@@ -1,6 +1,6 @@
 <h1>Portifolio Pessoal</h1>
 <h3>
-Projeto desenvolvido com React e Vite para apresentação de conteúdos pessoais, com componentes reutilizáveis e navegação entre seções, a fim de demonstrar meus conhecimentos de Front-end em React, JavaScript e HTML CSS, com código limpo, boa arquitetura, responsividade e acessibilidade.
+Projeto desenvolvido com React e Vite para apresentação de conteúdos pessoais, com componentes reutilizáveis e navegação entre seções, a fim de demonstrar meus conhecimentos de Front-end em React, JavaScript e HTML CSS, com código limpo, HTML semântico, boa arquitetura, responsividade e acessibilidade.
 </h3>
 
 <h2>1. Tecnologias utilizadas</h2>
