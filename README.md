@@ -10,11 +10,13 @@ React Router
 React Icons
 
 <h2>2. Como rodar o projeto</h2>
-Instale as dependências com 
+Instale as dependências com
+
 ```bash
 npm install
 ```
 Inicie o ambiente de desenvolvimento com
+
 ```bash
 npm run dev.
 ```
