@@ -26,7 +26,7 @@ export const SobreMim = () => {
 
         <article className="d-flex flex-column flex-md-row  gap-3 flex-wrap">
           {trabalhos.map((trab) => (
-            <CardProjetos img={trab.img} projeto={trab.nome} />
+            <CardProjetos img={trab.img} projeto={trab.nome} github={trab.github} link={trab.link} />
           ))}
         </article>
       </main>

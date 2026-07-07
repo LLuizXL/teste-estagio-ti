@@ -3,7 +3,7 @@ import { BsBoxArrowUpRight, BsGithub } from "react-icons/bs";
 const CardProjetos = (props) => {
   // Tambem vai ter os links para o projeto, que vai aparecer no evento hover apenas
   return (
-    <div className="d-flex flex-column text-center align-items-center"> 
+    <div className="link d-flex flex-column text-center align-items-center"> 
         <figure>
           <img src={props.img} width={200} height={200} alt="" />
         </figure>
