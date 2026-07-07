@@ -1,43 +1,17 @@
+import TimelineLeft from "../components/TimeLine/TimelineLeft";
+import TimelineRight from "../components/TimeLine/TimelineRight";
+
 export const Formacao = () => {
   return (
-    <main className="d-flex flex-column align-items-center">
-      <h3>Trajetoria</h3>
-      <section className="d-flex col-md-6 col-12 flex-column p-5">
+    <main className="d-flex flex-column position-relative">
+      <h3 className="text-center">Trajetoria</h3>
+      <section className="timeline d-flex col-12 flex-column p-5 align-items-center row-gap-md-0 row-gap-3">
 
-        <article className="article align-self-start col-6 col-md-5">
-          <small className="badge">ano</small>
-          <header>Formacao 1</header>
-          <p>Detalhes da formacao</p>
-          <small>Conteudos</small>
-        </article>
-
-        <article className="article align-self-end col-6 col-md-5">
-          <small className="badge">ano</small>
-          <header>Formacao 1</header>
-          <p>Detalhes da formacao</p>
-          <small>Conteudos</small>
-        </article>
-
-        <article className="article align-self-start col-6 col-md-5">
-          <small className="badge">ano</small>
-          <header>Formacao 1</header>
-          <p>Detalhes da formacao</p>
-          <small>Conteudos</small>
-        </article>
-
-        <article className="article align-self-end col-6 col-md-5 ">
-          <small className="badge">ano</small>
-              <header>Formacao 1</header>
-              <p>Detalhes da formacao</p>
-              <small>Conteudos</small>
-            </article>
-
-            <article className="article align-self-start col-6 col-md-5">
-              <span className="fw-light badge">ano</span>
-              <header>Formacao 1</header>
-              <p>Detalhes da formacao</p>
-              <small>Conteudos</small>
-            </article>
+       <TimelineLeft />
+       <TimelineRight />
+       <TimelineLeft />
+       <TimelineRight />
+       <TimelineLeft />
       </section>
     </main>
   );
