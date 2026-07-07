@@ -20,7 +20,7 @@ export const profile = {
       nome: "Fórum RAGEMODE",
       descricao:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-      img: "https://placehold.co/200x200",
+      img: "src/img/projeto4.png",
       link: "https://rage-mode-react.vercel.app",
       github: "https://github.com/Joaquimtxt/RageModeReact"
       
@@ -29,23 +29,31 @@ export const profile = {
       nome: "Devflix",
       descricao:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-      img: "https://placehold.co/200x200",
+      img: "src/img/projeto5.png",
       github: "https://github.com/Joaquimtxt/DevflixJJl",
       link: "https://devflix-jjl.vercel.app"
+    },
+    {
+      nome: "Steam Clone (Vapor)",
+      descricao:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      img: "src/img/projeto3.png",
+      link: "",
+      github: "https://github.com/lluizxl/ProjetoDevSteam"
     },
     {
       nome: "Project NPLSM",
       descricao:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-      img: "src/assets/projeto1.png",
+      img: "src/img/projeto1.png",
       link: "https://lluizxl.github.io/Project.NPSLM/homepage",
       github: "https://github.com/lluizxl/Project.NPSLM"
     },
     {
-      nome: "Projeto Bia Modas",
+      nome: "Bia Modas",
       descricao:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-      img: "https://placehold.co/200x200",
+      img: "src/img/projeto2.png",
       link: "https://biamodasjau.com.br",
       github: "https://github.com/Syntax-Softwares/Bia-Modas"
     },
@@ -99,23 +107,23 @@ export const profile = {
       periodo: "fev/2026 - agora",
     }, 
      {
-        nome: "Desenvolvedor Back-end Avançado",
+        nome: "Curso Livre de Desenvolvedor Back-end Avançado",
         instituicao: "Senai Edward Sávio - Jaú",
         periodo: "jan/2026 - agora",
     },
     {
-        nome: "Desenvolvimento de Sistemas",
+        nome: "Desenvolvimento de Sistemas - I3DS",
         instituicao: "Senai Edward Sávio - Jaú",
         periodo: "2023- 2025",
     },
     {
-        nome: "Olimpíada Brasileira de Robótica - Prova Prática (Regional)",
-        instituicao: "Serviço Social da Indústria 026 Sueli Augueiro - Jaú",
+        nome: "Olimpíada Brasileira de Robótica",
+        instituicao: "Serviço Social da Indústria 026 Sueli Augueiro",
         periodo: "2023 - 2025",
     },
     {
       nome: "Ensino Fundamental e Médio",
-      instituicao: "Serviço Social da Indústria 026 Sueli Augueiro - Jaú",
+      instituicao: "Serviço Social da Indústria 026 Sueli Augueiro",
       periodo: "2014 - 2025",
     }
   ],
