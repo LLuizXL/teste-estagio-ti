@@ -4,8 +4,8 @@ export const profile = {
     cargo: "Desenvolvedor Full-Stack",
     resumo:
       "Olá, eu sou o Luiz! Sou um desenvolvedor Full-Stack de Jaú, São Paulo, com foco em React.js JavaScript e Microsoft .NET/C#. Tenho experiência construindo interfaces responsivas e APIs eficientes, com paixão por transformar ideias em soluções acessíveis e bem estruturadas. Atualmente curso Desenvolvimento de Software Multiplataforma na Fatec Jahu e sigo evoluindo continuamente minhas habilidades técnicas e de lógica.",
-    foto: "src/assets/foto1.jpeg",
-    fotoPerfil: "src/assets/foto1.jpeg",
+    foto: "src/img/foto1.jpeg",
+    fotoPerfil: "src/img/foto1.jpeg",
   },
   projetos: [
     {
