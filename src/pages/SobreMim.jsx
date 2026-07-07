@@ -47,10 +47,10 @@ export const SobreMim = () => {
             {trabalhos.map((trab) => { 
 
               <CardProjetos
-              img={"https://placehold.co/200x200"}
-              projeto={"Trab 1"}
-              github={"https://github.com/LLuizXL"}
-              link={"https://luiz.com"}
+              img={trab.img}
+              projeto={trab.nome}
+              github={trab.github}
+              link={trab.github}
               />
             })}
           </div>
