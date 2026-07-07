@@ -5,6 +5,7 @@ export const SobreMim = () => {
   const resumo = profile["perfil"].resumo;
   const trabalhos = profile["projetos"];
   const foto = profile.perfil["foto"];
+  
   return (
     <div className="px-5 py-3 d-flex flex-column gap-3">
       <section
@@ -21,12 +22,12 @@ export const SobreMim = () => {
         <section>
           <img
             className="profile-img img-fluid rounded-start-5 d-none d-md-block"
-            src="https://placehold.co/400x400"
+            src={foto}
             alt="Foto de perfil profissional em desktop"
           />
           <img
             className="profile-img d-block d-md-none img-fluid rounded-top-5"
-            src="https://placehold.co/400x500"
+            src={foto}
             alt="Foto de perfil profissional em mobile"
           />
         </section>
@@ -43,17 +44,17 @@ export const SobreMim = () => {
           className="d-flex flex-column flex-md-row gap-5 gap-md-3 flex-wrap"
           role="list"
         >
-          <div role="listitem">
-            {trabalhos.map((trab) => { 
+         
+         {trabalhos.map((trab) => (
 
               <CardProjetos
               img={trab.img}
               projeto={trab.nome}
               github={trab.github}
-              link={trab.github}
+              link={trab.link}
               />
-            })}
-          </div>
+            ))}
+          
       
         </article>
       </section>

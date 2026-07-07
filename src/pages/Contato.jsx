@@ -66,17 +66,17 @@ export const Contato = () => {
         </h2>
         <ul className="d-flex flex-row justify-content-center gap-5 align-content-between list-unstyled">
           <li>
-            <a href="" className="link" aria-label="Visite meu GitHub">
+            <a target="_blank" href="https://github.com/LLuizXL" className="link" aria-label="Visite meu GitHub">
               <BsGithub size={40} title="GitHub" />
             </a>
           </li>
           <li>
-            <a href="" className="link" aria-label="Visite meu LinkedIn">
+            <a  target="_blank" href="https://linkedin.com/in/luizgvmleo" className="link" aria-label="Visite meu LinkedIn">
               <BsLinkedin size={40} title="LinkedIn" />
             </a>
           </li>
           <li>
-            <a href="" className="link" aria-label="Visite meu Instagram">
+            <a target="_blank" href="" className="link" aria-label="Visite meu Instagram">
               <BsInstagram size={40} title="Instagram" />{" "}
             </a>
           </li>
