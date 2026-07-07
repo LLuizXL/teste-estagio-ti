@@ -4,9 +4,9 @@ Projeto desenvolvido com React e Vite para apresentação de conteúdos pessoais
 </h3>
 
 <h2>1. Tecnologias utilizadas</h2>
-React Vite
-Bootstrap
-React Router
+React Vite,
+Bootstrap,
+React Router,
 React Icons
 
 <h2>2. Como rodar o projeto</h2>
