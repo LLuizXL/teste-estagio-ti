@@ -45,7 +45,7 @@ export const SobreMim = () => {
           role="list"
         >
          
-``            {trabalhos.map((trab) => (
+         {trabalhos.map((trab) => (
 
               <CardProjetos
               img={trab.img}
