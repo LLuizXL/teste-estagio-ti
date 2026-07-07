@@ -15,7 +15,8 @@ const Footer = () => {
         aria-label="Links de contato e redes sociais"
       >
         <a
-          href=""
+         target="_blank"
+          href="https://linkedin.com/in/luizgvmelo"
           className="link"
           aria-label="Visite meu LinkedIn"
           title="LinkedIn"
@@ -23,7 +24,8 @@ const Footer = () => {
           <BsLinkedin aria-hidden="true" />
         </a>
         <a
-          href=""
+        target="_blank"
+          href="https://github.com/LLuizXL"
           className="link"
           aria-label="Visite meu GitHub"
           title="GitHub"

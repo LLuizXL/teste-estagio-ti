@@ -2,7 +2,7 @@ import { BsBoxArrowUpRight, BsGithub } from "react-icons/bs";
 
 const CardProjetos = (props) => {
   return (
-    <article className="d-flex flex-column text-center align-items-center">
+    <article className="link d-flex flex-column text-center align-items-center">
       <figure>
         <img
           src={props.img}
@@ -20,6 +20,7 @@ const CardProjetos = (props) => {
       >
         {props.link && (
           <a
+           target="_blank"
             className="link"
             href={props.link}
             aria-label={`Acessar projeto ${props.projeto}`}
@@ -29,6 +30,7 @@ const CardProjetos = (props) => {
           </a>
         )}
         <a
+         target="_blank"
           href={props.github}
           className="link"
           aria-label={`Ver código do projeto ${props.projeto} no GitHub`}
