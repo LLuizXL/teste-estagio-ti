@@ -4,8 +4,8 @@ export const profile = {
     cargo: "Desenvolvedor Full-Stack",
     resumo:
       "Olá, eu sou o Luiz! Sou um desenvolvedor Full-Stack de Jaú, São Paulo, com foco em React.js JavaScript e Microsoft .NET/C#. Tenho experiência construindo interfaces responsivas e APIs eficientes, com paixão por transformar ideias em soluções acessíveis e bem estruturadas. Atualmente curso Desenvolvimento de Software Multiplataforma na Fatec Jahu e sigo evoluindo continuamente minhas habilidades técnicas e de lógica.",
-    foto: "public/img/foto1.jpeg",
-    fotoPerfil: "public/img/foto1.jpeg",
+    foto: "/img/foto1.jpeg",
+    fotoPerfil: "/img/foto1.jpeg",
   },
   projetos: [
     {
@@ -20,7 +20,7 @@ export const profile = {
       nome: "Fórum RAGEMODE",
       descricao:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-      img: "public/img/projeto4.png",
+      img: "/img/projeto4.png",
       link: "https://rage-mode-react.vercel.app",
       github: "https://github.com/Joaquimtxt/RageModeReact"
       
@@ -29,7 +29,7 @@ export const profile = {
       nome: "Devflix",
       descricao:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-      img: "public/img/projeto5.png",
+      img: "/img/projeto5.png",
       github: "https://github.com/Joaquimtxt/DevflixJJl",
       link: "https://devflix-jjl.vercel.app"
     },
@@ -37,7 +37,7 @@ export const profile = {
       nome: "Steam Clone (Vapor)",
       descricao:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-      img: "public/img/projeto3.png",
+      img: "/img/projeto3.png",
       link: "",
       github: "https://github.com/lluizxl/ProjetoDevSteam"
     },
@@ -45,7 +45,7 @@ export const profile = {
       nome: "Project NPLSM",
       descricao:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-      img: "public/img/projeto1.png",
+      img: "/img/projeto1.png",
       link: "https://lluizxl.github.io/Project.NPSLM/homepage",
       github: "https://github.com/lluizxl/Project.NPSLM"
     },
@@ -53,7 +53,7 @@ export const profile = {
       nome: "Bia Modas",
       descricao:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
-      img: "public/img/projeto2.png",
+      img: "/img/projeto2.png",
       link: "https://biamodasjau.com.br",
       github: "https://github.com/Syntax-Softwares/Bia-Modas"
     },
