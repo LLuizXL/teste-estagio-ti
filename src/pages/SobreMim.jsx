@@ -27,8 +27,8 @@ export const SobreMim = () => {
       <main className="text-center text-md-start">
           <h3 className="mb-3 ">Um pouco do meu trabalho:</h3>
          
-        <article className="d-flex flex-column flex-md-row gap-3 flex-wrap">
-           <CardProjetos img={"https://placehold.co/200x200"} projeto={"Trab 1"} />
+        <article className="d-flex flex-column flex-md-row gap-5 gap-md-3 flex-wrap">
+          <CardProjetos img={"https://placehold.co/200x200"} projeto={"Trab 1"} github={"https://github.com/LLuizXL"} link={"https://luiz.com"} />
            <CardProjetos img={"https://placehold.co/200x200"} projeto={"Trab 2"} />
            <CardProjetos img={"https://placehold.co/200x200"} projeto={"Trab 3"} />
            <CardProjetos img={"https://placehold.co/200x200"} projeto={"Trab 3"} />
