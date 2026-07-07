@@ -7,29 +7,56 @@ export const SobreMim = () => {
   const foto = profile.perfil["foto"];
   return (
     <div className="px-5 py-3 d-flex flex-column gap-3">
-      <main className="d-flex flex-md-row flex-column-reverse align-items-center text-center text-md-start justify-content-between">
-        <section className="col-md-6">
-          <h2 className="">SOBRE MIM</h2>
-          <p className="text-secondary fw-bold  col-12 text-wrap fs-5">
-            {resumo}
+      <section
+        className="d-flex flex-md-row flex-column-reverse gap-3 align-items-center text-center text-md-start justify-content-between"
+        aria-labelledby="aboutHeading"
+      >
+        <article className="col-md-6">
+          <h1 id="aboutHeading">SOBRE MIM</h1>
+          <p className=" fw-bold  col-12 text-wrap fs-5">
+           {resumo}
           </p>
-        </section>
-
-        <img
-          className="profile-img col-md-4 col-12 rounded-top-5 "
-          src={foto}
-        />
-      </main>
-
-      <main className="text-center text-md-start">
-        <h3 className="mb-3">Um pouco do meu trabalho:</h3>
-
-        <article className="d-flex flex-column flex-md-row  gap-3 flex-wrap">
-          {trabalhos.map((trab) => (
-            <CardProjetos img={trab.img} projeto={trab.nome} />
-          ))}
         </article>
-      </main>
+
+        <section>
+          <img
+            className="profile-img img-fluid rounded-start-5 d-none d-md-block"
+            src="https://placehold.co/400x400"
+            alt="Foto de perfil profissional em desktop"
+          />
+          <img
+            className="profile-img d-block d-md-none img-fluid rounded-top-5"
+            src="https://placehold.co/400x500"
+            alt="Foto de perfil profissional em mobile"
+          />
+        </section>
+      </section>
+      <section
+        className="text-center text-md-start"
+        aria-labelledby="projectsHeading"
+      >
+        <h2 id="projectsHeading" className="mb-3 ">
+          Um pouco do meu trabalho:
+        </h2>
+
+        <article
+          className="d-flex flex-column flex-md-row gap-5 gap-md-3 flex-wrap"
+          role="list"
+        >
+          <div role="listitem">
+            {trabalhos.map((trab) => { 
+
+              <CardProjetos
+              img={trab.img}
+              projeto={trab.nome}
+              github={trab.github}
+              link={trab.github}
+              />
+            })}
+          </div>
+      
+        </article>
+      </section>
     </div>
   );
 };
