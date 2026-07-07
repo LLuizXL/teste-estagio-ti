@@ -22,7 +22,7 @@ export const Header = () => {
       >
         <img
           className="img-fluid rounded-circle"
-          src="https://placehold.co/50x50"
+          src={fotoPerfil}
           alt="Foto de perfil do desenvolvedor"
           style={{ width: 50, height: 50 }}
         />
